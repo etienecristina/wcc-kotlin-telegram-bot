@@ -14,6 +14,7 @@ fun main() {
     // Instantiate Telegram Bots API
     val botsApi = TelegramBotsApi(botSession::class.java)
 
+
     // Register our bot
     try {
         botsApi.registerBot(WCCBot())
