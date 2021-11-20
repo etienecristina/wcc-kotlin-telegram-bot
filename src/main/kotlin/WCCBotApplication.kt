@@ -22,7 +22,6 @@ fun main() {
         log.info("WCC Bot is up \\o/")
     } catch (e: TelegramApiException) {
         e.printStackTrace()
-
         log.error("Telegram API failure", e)
     }
 }
